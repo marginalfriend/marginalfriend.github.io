@@ -7,6 +7,20 @@
 	<meta name="author" content="Abdullah">
 	<link href="index.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
+	<style>
+		.logo-container {
+			display: flex;
+			gap: 1ch;
+			width: calc(round(down, 100%, (1ch * var(--grid-cells)) - (1ch * var(--grid-cells) - 1)));
+			height: auto;
+			margin-top: 0;
+		}
+
+		.logo-container table {
+			margin-top: 1ch;
+			margin-bottom: 0;
+		}
+	</style>
 	<title>marginalfriend</title>
 </head>
 
@@ -35,36 +49,101 @@
 		</section>
 		<section>
 			<h2>Tech Stack</h2>
-			<p>
-				My name's Abdullah. I'm a self-taught developer, I learnt most of my knowledge for free, thanks to the internet
-				and
-				open
-				source. I've been developing web applications for the past 2 years. I’m specialized in full-stack development
-				and
-				planning to learn blockchain and web3 development. Besides blockchain, I’m also drawn into system development.
-			</p>
+			<p>These are technologies I've been developing with:</p>
+			<div class="logo-container">
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/js.svg" alt="JavaScript">
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/java.svg" alt="Java">
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/nodejs.svg" alt="NodeJS">
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/springboot.svg" alt="Springboot">
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/nextjs.svg" alt="NextJS">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="logo-container">
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/reactjs.svg" alt="ReactJS">
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/expressjs.svg" alt="ExpressJS">
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/postgresql.svg" alt="PostgreSQL">
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/tailwind.svg" alt="TailwindCSS">
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<img src="/assets/icons/git.svg" alt="Git">
+						</td>
+					</tr>
+				</table>
+			</div>
+
 		</section>
+		<p style="color: var(--background-color);">_</p>
 		<section>
 			<h2>Portfolio</h2>
 			<div class="grid">
 				<table>
 					<tr>
-						<th class="width-auto">
+						<th class="width-auto" colspan="1">
 							<strong>Arkad</strong>
 						</th>
 						<th>
-							<button>
-								<a href="https://github.com/marginalfriend/notes-of-arkad-web">
-									Repo
-								</a>
-							</button>
+							<a href="https://github.com/marginalfriend/notes-of-arkad-web" class="width-min">
+								<img src="/assets/icons/github.svg" alt="GitHub" style="height: 1.5em; width: 1.5em;">
+							</a>
 						</th>
 						<th>
-							<button>
-								<a href="https://notes-of-arkad.vercel.app">
-									Link
-								</a>
-							</button>
+							<a href="https://notes-of-arkad.vercel.app" class="width-min">
+								<img src="/assets/icons/browser.svg" alt="Browser" style="height: 1.5em; width: 1.5em;">
+							</a>
 						</th>
 					</tr>
 					<tr>
@@ -83,18 +162,14 @@
 							<strong>GK5 Garage</strong>
 						</th>
 						<th>
-							<button>
-								<a href="https://github.com/marginalfriend/my-garage">
-									github
-								</a>
-							</button>
+							<a href="https://github.com/marginalfriend/my-garage">
+								<img src="/assets/icons/github.svg" alt="GitHub" style="height: 1.5em; width: 1.5em;">
+							</a>
 						</th>
 						<th>
-							<button>
-								<a href="https://gk5garage.com">
-									link
-								</a>
-							</button>
+							<a href="https://gk5garage.com">
+								<img src="/assets/icons/browser.svg" alt="Browser" style="height: 1.5em; width: 1.5em;">
+							</a>
 						</th>
 					</tr>
 					<tr>
@@ -107,7 +182,7 @@
 					</tr>
 				</table>
 			</div>
-			<p>This might not cover all of the projects I've built, if you're interested, you can visit <a
+			<p>This portfolio might not cover all of the projects I've built, if you're interested, you can visit <a
 					href="https://github.com/marginalfriend">my github profile</a> to check out more.</p>
 		</section>
 		<section>
